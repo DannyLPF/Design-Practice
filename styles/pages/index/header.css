@@ -1,0 +1,64 @@
+
+.header{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.left-section{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.logo
+{
+    height: 100px;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 750px;
+    flex-shrink: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+li a {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    color: white;
+    padding: 50px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+.icons{
+    margin-right: 10px;
+    height: 20px;
+}
+
+.right-section{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: right;
+    flex: 1;
+}
+
+.profile-picture{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}

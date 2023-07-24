@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+
+
+    <link rel="stylesheet" href="styles/pages/index/header.css">
+    <link rel="stylesheet" href="styles/pages/index/search-bar.css">
+    <link rel="stylesheet" href="styles/pages/index/content.css">
+
+    <script src="scripts/collections-data.js"></script>
+    <script src="scripts/load-collections.js" defer></script>
+
+    <title>Design Practice</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="logo" src="images/logos/Disney-logo.png">
+        </div>
+
+        <div class="middle-section">
+            <ul>
+                <li><a href="google.com"><img class="icons" src="images/icons/home-icon.png">Home</a></li>
+                <li><a href="google.com"><img class="icons" src="images/icons/search-icon.png">Search</a></li>
+                <li><a href="google.com"><img class="icons" src="images/icons/plus-icon.png">Watchlist</a></li>
+                <li><a href="google.com"><img class="icons" src="images/icons/star-icon.png">Originals</a></li>
+                <li><a href="google.com"><img class="icons" src="images/icons/film-reel-icon.png">Movies</a></li>
+                <li><a href="google.com"><img class="icons" src="images/icons/tv-icon.png">Series</a></li>
+            </ul>
+        </div>
+
+        <div class="right-section">
+            <img class="profile-picture" src="images/profile-pictures/profile-pic-1.jpg">
+        </div>
+    </div>
+
+    <input class="search-bar" type="text" placeholder="Search by title, character or genre">
+
+    <p class="content-title">Explore</p>
+
+    <div class="content js-content"></div>
+</body>
+</html>
